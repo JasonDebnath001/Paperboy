@@ -1,0 +1,17 @@
+{
+  "name": "paperboy",
+  "version": "1.0.0",
+  "description": "A dedicated API where you send raw JSON data, and it streams back a perfectly formatted PDF file",
+  "license": "ISC",
+  "author": "Aritra Debnath",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pdfkit": "^0.17.2"
+  }
+}
