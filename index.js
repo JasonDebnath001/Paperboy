@@ -1,9 +1,12 @@
 const express = require("express");
 const PDFDocument = require("pdfkit");
+const cors = require('cors')
 
 const app = express();
 
 app.use(express.json());
+app.use(cors())
+
 
 app.get("/", (req, res) => {
   res.send("Paperboy API is running! Ready to print.");
@@ -72,7 +75,7 @@ app.post("/api/generate-invoice", (req, res) => {
 });
 
 if (require.main === module) {
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 5000;
   app.listen(PORT, () => {
     console.log(`Server running locally on http://localhost:${PORT}`);
   });
