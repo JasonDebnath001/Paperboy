@@ -11,7 +11,7 @@ Paperboy is a lightweight, high-performance API designed to solve the common pai
 
 Instead of relying on buggy CSS-to-Print hacks on the frontend, Paperboy accepts raw JSON data, renders a pixel-perfect PDF using **PDFKit**, and **streams the binary data** directly to the client.
 
-**[View the Live Frontend & Documentation](https://paperboy-web.vercel.app)** *(Replace with your actual frontend URL)*
+**[View the Live Frontend & Documentation](https://paperboy-web-three.vercel.app/)**
 
 ---
 
