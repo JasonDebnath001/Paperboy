@@ -4,7 +4,7 @@
   "description": "A dedicated API where you send raw JSON data, and it streams back a perfectly formatted PDF file",
   "license": "ISC",
   "author": "Aritra Debnath",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
