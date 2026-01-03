@@ -236,6 +236,14 @@ app.post("/api/generate", (req, res) => {
 });
 
 /* =========================
+   ROOT ROUTE
+   ========================= */
+
+app.get("/", (req, res) => {
+  res.send("Paperboy API is running 🗞️");
+});
+
+/* =========================
    LOCAL DEV SERVER
    ========================= */
 
